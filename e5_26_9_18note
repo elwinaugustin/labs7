@@ -1,0 +1,26 @@
+man flex
+extension-- .l
+generate c code
+then combile
+3 parts
+	declaration
+	transition tools
+	auxilary procedure
+first %% declaration
+2nd %% transition rules
+$terminal
+	lex e5260918.l
+		=>lex.yy.c generated
+	gedit lex.yy.c
+	gcc lex.yy.c
+	gcc lex.yy.c -lfl
+	
+what is lex, stdin, .+
+.+ printf("not accepted");
+
+exp- LEX TO IDENTIFY STRINGS CONAINING ATLEAST ONE ZERO
+	=>e5260918_2.l
+	0*[1-9]*0+[1-9]*
+
+exp- IDENTIFY ENDING IN AB
+	=>
