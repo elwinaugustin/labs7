@@ -3,9 +3,9 @@
 #include<stdio.h>
 void main()
 {
-int a,b,c;
-printf("enter any 2 numbers");
-scanf("%d,%d",a,b);
-c=a+b;
-printf("the sum of given 2 numbers is %d",c);
+int a,b,c,d;
+printf("enter any 3 numbers");
+scanf("%d,%d,%d",a,b,c);
+d=a+b+c;
+printf("the sum of given 3 numbers is %d",c);
 }
