@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {	
-//This sample comment for second program
+//This sample comment for second programs
 	int x,y;
 	x=2;
 /* hallo how r u, nice to meet u*/
