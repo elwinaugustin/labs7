@@ -1,4 +1,6 @@
  #include<iostream.h>
-#include<stdio.h>
-int i,j,l;
+void main()
+{
+ int i,j,l;
 printf("hai world");
+}
